@@ -1,6 +1,6 @@
 # MedMNIST Image Classification System
 
-This repository contains an end-to-end image classification system built on the MedMNIST dataset for the Quantivly AI Engineer take-home assessment.
+This repository contains an end-to-end image classification system built on the MedMNIST dataset.
 
 The goal of this project was not to maximize benchmark performance, but to build a modular, reproducible, and deployable ML system that another engineer could easily understand, run, and extend.
 
