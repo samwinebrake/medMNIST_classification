@@ -1,0 +1,21 @@
+dataset:
+  name: pathmnist
+  image_size: 64
+  batch_size: 64
+  num_workers: 4
+  download: true
+  as_rgb: true
+
+model:
+  identifier: convnext_atto.d2_in1k
+  pretrained: true
+  source: timm  # currently only timm supported
+
+training:
+  num_epochs: 5
+  lr: 0.0001
+  weight_decay: 0.0001
+  seed: 42
+
+artifacts:
+  output_dir: artifacts/pathmnist_convnext_atto
